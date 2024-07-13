@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <title>Estante Virtual</title>
+</head>
+<body>
+
+<!--INICIO CABEÇALHO-->
+<header class="topo-site">
+    <!--INICIO LOGO-->
+    <a href="index.html" class="logo">
+        <i class="fas fa-book"></i>
+        Estante Virtual
+    </a>
+    <!--FIM LOGO-->
+
+
+    <!--INICIO MENU-->
+    <nav class="menu-site">
+        <a href="index.html">Home</a>
+        <a href="empresa.html">Empresa</a>
+        <a href="menu.html">Estante</a>
+        <a href="contatos.html">Fale Conosco</a>
+    </nav>
+    <!--FIM MENU-->
+
+
+    <!--INICIO ICONES-->
+    <div class="icones">
+        <div id="cart" class="fas fa-shopping-cart"></div>
+        <div id="login" class="fas fa-user"></div>
+        <div id="menu" class="fas fa-bars"></div>
+    </div>
+    <!--FIM ICONES-->
+    
+    <!--INICIO CARRINHO COMPRAS-->
+    <div class="carrinho">
+        <!--INICIO ITEM CARRINHO COMPRAS-->
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="assets/img/carrinho/carrinho-1.jpg" alt="">
+            <div class="content">
+                <h3>Harry Potter</h3>
+                <span class="quatidade">1</span>
+                <span class="multiplica">x</span>
+                <span class="valor">R$ 47,42</span>
+            </div>
+        </div>
+        <!--FIM ITEM CARRINHO COMPRAS-->
+
+        <!--INICIO ITEM CARRINHO COMPRAS-->
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="assets/img/carrinho/carrinho-2.jpg" alt="">
+            <div class="content">
+                <h3>Fogo & Sangue</h3>
+                <span class="quatidade">1</span>
+                <span class="multiplica">x</span>
+                <span class="valor">R$ 39,57</span>
+            </div>
+        </div>
+        <!--FIM ITEM CARRINHO COMPRAS-->
+
+        <!--INICIO ITEM CARRINHO COMPRAS-->
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="assets/img/carrinho/carrinho-3.jpg" alt="">
+            <div class="content">
+                <h3>Teto para Dois</h3>
+                <span class="quatidade">1</span>
+                <span class="multiplica">x</span>
+                <span class="valor">R$ 44,90</span>
+            </div>
+        </div>
+        <!--FIM ITEM CARRINHO COMPRAS-->
+
+        <h3 class="total">Total R$ 131,89</h3>
+        <a href="" class="btn">Ir para o carrinho</a>
+    </div>
+    <!--FIM CARRINHO COMPRAS-->
+    
+
+    <!--INICIO LOGIN-->
+    <form action="" method="post" class="login-form">
+        <h3>Acesse sua conta</h3>
+        <input type="email" name="email" class="box" placeholder="Seu E-mail"> 
+        <input type="password" name="senha" class="box" placeholder="Sua Senha"> 
+        <div class="lembrar-senha">
+            <input type="checkbox" name="" id="relembrar">
+            <label for="relembrar">Me lembrar da senha</label>
+        </div>
+        <button type="submit" name="sendLogin" class="btn">Acessar</button>
+    </form>
+    <!--FIM LOGIN-->
+    
+</header>
+<!--FIM CABEÇALHO-->
+
+
+<!--INICIO TOPO PÁGINA-->
+<div class="topo-pagina">
+    <h1>Estante Livros</h1>
+    <p><a href="index.html" title="Sobre Nós">Início>></a> Estante</p>
+</div>
+<!--FIM TOPO PÁGINA-->
+
+
+<!--INICIO SLIDE DE COMPRAS-->
+<section class="menu">
+
+    <!--INICIO SLIDE PRINCIPAL-->
+    <div class="swiper menu-slider">
+        <div class="swiper-wrapper">
+
+            <!--INICIO ITEM 1-->
+            <div class="swiper-slide slider">
+                <h3 class="titulo">LIVROS ROMANCE</h3>
+                <div class="box-container">
+
+                    <!--INICIO SUB ITEM-->
+                    <div class="box" data-name="livro">
+                        <div class="info">
+                            <h3>A Hipótese do Amor</h3>
+                            <p>Livros do gênero de romance</p>
+                        </div>
+
+                        <div class="valor">
+                            R$ 77,00
+                        </div>
+                    </div>
+                    <!--FIM SUB ITEM-->
+                    <!--INICIO SUB ITEM-->
+                    <div class="box" data-name="livro">
+                        <div class="info">
+                            <h3>Um Quarto com Vista</h3>
+                            <p>Livros do gênero de romance</p>
+                        </div>
+
+                        <div class="valor">
+                            R$ 77,00
+                        </div>
+                    </div>
+                    <!--FIM SUB ITEM-->
+                    <!--INICIO SUB ITEM-->
+                    <div class="box" data-name="livro">
+                        <div class="info">
+                            <h3>É Assim que Acaba</h3>
+                            <p>Livros do gênero de romance</p>
+                        </div>
+
+                        <div class="valor">
+                            R$ 77,00
+                        </div>
+                    </div>
+                    <!--FIM SUB ITEM-->
+                    <!--INICIO SUB ITEM-->
+                    <div class="box" data-name="livro">
+                        <div class="info">
+                            <h3>O Visconde me Amava</h3>
+                            <p>Livros do gênero de romance</p>
+                        </div>
+
+                        <div class="valor">
+                            R$ 77,00
+                        </div>
+                    </div>
+                    <!--FIM SUB ITEM-->
+                    <!--INICIO SUB ITEM-->
+                    <div class="box" data-name="livro">
+                        <div class="info">
+                            <h3>A Culpa é das Estrelas</h3>
+                            <p>Livros do gênero de romance</p>
+                        </div>
+
+                        <div class="valor">
+                            R$ 77,00
+                        </div>
+                    </div>
+                    <!--FIM SUB ITEM-->
+                    <!--INICIO SUB ITEM-->
+                    <div class="box" data-name="livro">
+                        <div class="info">
+                            <h3>Lugar Feliz</h3>
+                            <p>Livros do gênero de romance</p>
+                        </div>
+
+                        <div class="valor">
+                            R$ 77,00
+                        </div>
+                    </div>
+                    <!--FIM SUB ITEM-->
+                    <!--INICIO SUB ITEM-->
+                    <div class="box" data-name="livro">
+                        <div class="info">
+                            <h3>Anna e o Beijo Francês</h3>
+                            <p>Livros do gênero de romance</p>
+                        </div>
+
+                        <div class="valor">
+                            R$ 77,00
+                        </div>
+                    </div>
+                    <!--FIM SUB ITEM-->
+                    <!--INICIO SUB ITEM-->
+                    <div class="box" data-name="livro">
+                        <div class="info">
+                            <h3>Garoto Encontra Garoto</h3>
+                            <p>Livros do gênero de romance</p>
+                        </div>
+
+                        <div class="valor">
+                            R$ 77,00
+                        </div>
+                    </div>
+                    <!--FIM SUB ITEM-->
+                    <!--INICIO SUB ITEM-->
+                    <div class="box" data-name="livro">
+                        <div class="info">
+                            <h3>Eleanor & Park</h3>
+                            <p>Livros do gênero de romance</p>
+                        </div>
+
+                        <div class="valor">
+                            R$ 77,00
+                        </div>
+                    </div>
+                    <!--FIM SUB ITEM-->
+                </div>
+            </div>
+            <!--FIM ITEM-->
+
+<!--INICIO ITEM 2-->
+            <div class="swiper-slide slider">
+                <h3 class="titulo">LIVROS FANTASIA</h3>
+                <div class="box-container">
+
+                    <!--INICIO SUB ITEM-->
+                    <div class="box" data-name="livro">
+                        <div class="info">
+                            <h3>Eleanor & Park</h3>
+                            <p>Livros do gênero de Fantasia</p>
+                        </div>
+
+                        <div class="valor">
+                            R$ 77,00
+                        </div>
+                    </div>
+                    <!--FIM SUB ITEM-->
+                    <!--INICIO SUB ITEM-->
+                    <div class="box" data-name="livro">
+                        <div class="info">
+                            <h3>As Crônicas de Nárnia</h3>
+                            <p>Livros do gênero de Fantasia</p>
+                        </div>
+
+                        <div class="valor">
+                            R$ 77,00
+                        </div>
+                    </div>
+                    <!--FIM SUB ITEM-->
+                    <!--INICIO SUB ITEM-->
+                    <div class="box" data-name="livro">
+                        <div class="info">
+                            <h3>Duna</h3>
+                            <p>Livros do gênero de Fantasia</p>
+                        </div>
+
+                        <div class="valor">
+                            R$ 77,00
+                        </div>
+                    </div>
+                    <!--FIM SUB ITEM-->
+                    <!--INICIO SUB ITEM-->
+                    <div class="box" data-name="livro">
+                        <div class="info">
+                            <h3>Trono de Vidro</h3>
+                            <p>Livros do gênero de Fantasia</p>
+                        </div>
+
+                        <div class="valor">
+                            R$ 77,00
+                        </div>
+                    </div>
+                    <!--FIM SUB ITEM-->
+                    <!--INICIO SUB ITEM-->
+                    <div class="box" data-name="livro">
+                        <div class="info">
+                            <h3>O Hobbit</h3>
+                            <p>Livros do gênero de Fantasia</p>
+                        </div>
+
+                        <div class="valor">
+                            R$ 77,00
+                        </div>
+                    </div>
+                    <!--FIM SUB ITEM-->
+                    <!--INICIO SUB ITEM-->
+                    <div class="box" data-name="livro">
+                        <div class="info">
+                            <h3>Sombra e Ossos</h3>
+                            <p>Livros do gênero de Fantasia</p>
+                        </div>
+
+                        <div class="valor">
+                            R$ 77,00
+                        </div>
+                    </div>
+                    <!--FIM SUB ITEM-->
+                    <!--INICIO SUB ITEM-->
+                    <div class="box" data-name="livro">
+                        <div class="info">
+                            <h3>Jogos Vorazes</h3>
+                            <p>Livros do gênero de Fantasia</p>
+                        </div>
+
+                        <div class="valor">
+                            R$ 77,00
+                        </div>
+                    </div>
+                    <!--FIM SUB ITEM-->
+                    <!--INICIO SUB ITEM-->
+                    <div class="box" data-name="livro">
+                        <div class="info">
+                            <h3>Fogo & Sangue</h3>
+                            <p>Livros do gênero de Fantasia</p>
+                        </div>
+
+                        <div class="valor">
+                            R$ 77,00
+                        </div>
+                    </div>
+                    <!--FIM SUB ITEM-->
+                    <!--INICIO SUB ITEM-->
+                    <div class="box" data-name="livro">
+                        <div class="info">
+                            <h3>Coraline</h3>
+                            <p>Livros do gênero de Fantasia</p>
+                        </div>
+
+                        <div class="valor">
+                            R$ 77,00
+                        </div>
+                    </div>
+                    <!--FIM SUB ITEM-->
+                </div>
+            </div>
+            <!--FIM ITEM-->
+
+        <!--INICIO ITEM 3-->
+        <div class="swiper-slide slider">
+            <h3 class="titulo">LIVROS TERROR</h3>
+            <div class="box-container">
+
+                <!--INICIO SUB ITEM-->
+                <div class="box" data-name="livro">
+                    <div class="info">
+                        <h3>O Paciente</h3>
+                        <p>Livros do gênero de Terror</p>
+                    </div>
+
+                    <div class="valor">
+                        R$ 77,00
+                    </div>
+                </div>
+                <!--FIM SUB ITEM-->
+                <!--INICIO SUB ITEM-->
+                <div class="box" data-name="livro">
+                    <div class="info">
+                        <h3>O Vilarejo</h3>
+                        <p>Livros do gênero de Terror</p>
+                    </div>
+
+                    <div class="valor">
+                        R$ 77,00
+                    </div>
+                </div>
+                <!--FIM SUB ITEM-->
+                <!--INICIO SUB ITEM-->
+                <div class="box" data-name="livro">
+                    <div class="info">
+                        <h3>Saboroso Cadáver</h3>
+                        <p>Livros do gênero de Terror</p>
+                    </div>
+
+                    <div class="valor">
+                        R$ 77,00
+                    </div>
+                </div>
+                <!--FIM SUB ITEM-->
+                <!--INICIO SUB ITEM-->
+                <div class="box" data-name="livro">
+                    <div class="info">
+                        <h3>As Ruínas</h3>
+                        <p>Livros do gênero de Terror</p>
+                    </div>
+
+                    <div class="valor">
+                        R$ 77,00
+                    </div>
+                </div>
+                <!--FIM SUB ITEM-->
+                <!--INICIO SUB ITEM-->
+                <div class="box" data-name="livro">
+                    <div class="info">
+                        <h3>A Paciente Silenciosa</h3>
+                        <p>Livros do gênero de Terror</p>
+                    </div>
+
+                    <div class="valor">
+                        R$ 77,00
+                    </div>
+                </div>
+                <!--FIM SUB ITEM-->
+                <!--INICIO SUB ITEM-->
+                <div class="box" data-name="livro">
+                    <div class="info">
+                        <h3>O Bebê de Rosemary</h3>
+                        <p>Livros do gênero de Terror</p>
+                    </div>
+
+                    <div class="valor">
+                        R$ 77,00
+                    </div>
+                </div>
+                <!--FIM SUB ITEM-->
+                <!--INICIO SUB ITEM-->
+                <div class="box" data-name="livro">
+                    <div class="info">
+                        <h3>O ExorcistaV</h3>
+                        <p>Livros do gênero de Terror</p>
+                    </div>
+
+                    <div class="valor">
+                        R$ 77,00
+                    </div>
+                </div>
+                <!--FIM SUB ITEM-->
+                <!--INICIO SUB ITEM-->
+                <div class="box" data-name="livro">
+                    <div class="info">
+                        <h3>A Coisa</h3>
+                        <p>Livros do gênero de Terror</p>
+                    </div>
+
+                    <div class="valor">
+                        R$ 77,00
+                    </div>
+                </div>
+                <!--FIM SUB ITEM-->
+                <!--INICIO SUB ITEM-->
+                <div class="box" data-name="livro">
+                    <div class="info">
+                        <h3>O Iluminado</h3>
+                        <p>Livros do gênero de Terror</p>
+                    </div>
+
+                    <div class="valor">
+                        R$ 77,00
+                    </div>
+                </div>
+                <!--FIM SUB ITEM-->
+            </div>
+        </div>
+        <!--FIM ITEM-->
+
+        <!--INICIO ITEM 4-->
+        <div class="swiper-slide slider">
+            <h3 class="titulo">LIVROS FICÇÃO</h3>
+            <div class="box-container">
+
+                <!--INICIO SUB ITEM-->
+                <div class="box" data-name="livro">
+                    <div class="info">
+                        <h3>Vórtices</h3>
+                        <p>Livros do gênero de Ficção</p>
+                    </div>
+
+                    <div class="valor">
+                        R$ 77,00
+                    </div>
+                </div>
+                <!--FIM SUB ITEM-->
+                <!--INICIO SUB ITEM-->
+                <div class="box" data-name="livro">
+                    <div class="info">
+                        <h3>Neuromancer</h3>
+                        <p>Livros do gênero de Ficção</p>
+                    </div>
+
+                    <div class="valor">
+                        R$ 77,00
+                    </div>
+                </div>
+                <!--FIM SUB ITEM-->
+                <!--INICIO SUB ITEM-->
+                <div class="box" data-name="livro">
+                    <div class="info">
+                        <h3>Fahrenheit 451</h3>
+                        <p>Livros do gênero de Ficção</p>
+                    </div>
+
+                    <div class="valor">
+                        R$ 77,00
+                    </div>
+                </div>
+                <!--FIM SUB ITEM-->
+                <!--INICIO SUB ITEM-->
+                <div class="box" data-name="livro">
+                    <div class="info">
+                        <h3>Blade Runner</h3>
+                        <p>Livros do gênero de Ficção</p>
+                    </div>
+
+                    <div class="valor">
+                        R$ 77,00
+                    </div>
+                </div>
+                <!--FIM SUB ITEM-->
+                <!--INICIO SUB ITEM-->
+                <div class="box" data-name="livro">
+                    <div class="info">
+                        <h3>Frankenstein</h3>
+                        <p>Livros do gênero de Ficção</p>
+                    </div>
+
+                    <div class="valor">
+                        R$ 77,00
+                    </div>
+                </div>
+                <!--FIM SUB ITEM-->
+                <!--INICIO SUB ITEM-->
+                <div class="box" data-name="livro">
+                    <div class="info">
+                        <h3>Maze Runner</h3>
+                        <p>Livros do gênero de Ficção</p>
+                    </div>
+
+                    <div class="valor">
+                        R$ 77,00
+                    </div>
+                </div>
+                <!--FIM SUB ITEM-->
+                <!--INICIO SUB ITEM-->
+                <div class="box" data-name="livro">
+                    <div class="info">
+                        <h3>Aurora ascende</h3>
+                        <p>Livros do gênero de Ficção</p>
+                    </div>
+
+                    <div class="valor">
+                        R$ 77,00
+                    </div>
+                </div>
+                <!--FIM SUB ITEM-->
+                <!--INICIO SUB ITEM-->
+                <div class="box" data-name="livro">
+                    <div class="info">
+                        <h3>Artemis</h3>
+                        <p>Livros do gênero de Ficção</p>
+                    </div>
+
+                    <div class="valor">
+                        R$ 77,00
+                    </div>
+                </div>
+                <!--FIM SUB ITEM-->
+                <!--INICIO SUB ITEM-->
+                <div class="box" data-name="livro">
+                    <div class="info">
+                        <h3>Gearbreakers</h3>
+                        <p>Livros do gênero de Ficção</p>
+                    </div>
+
+                    <div class="valor">
+                        R$ 77,00
+                    </div>
+                </div>
+                <!--FIM SUB ITEM-->
+            </div>
+        </div>
+        <!--FIM ITEM-->
+        </div>
+    
+    <!--INICIO PAGINAÇÃO SLIDE-->
+    <div class="swiper-pagination"></div>
+    <!--FIM PAGINAÇÃO SLIDE-->
+
+    </div>
+    <!--FIM SLIDE PRINCIPAL-->
+</section>
+<!--FIM SLIDE DE COMPRAS-->
+
+
+<!--INICIO MODAL-->
+<section class="menu-modal-container">
+    <div id="fechar" class="fas fa-times"></div>
+    <div class="menu-modal" data-target="livro">
+        <h3>Estante Virtual</h3>
+
+        <div class="estrelinha">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+
+        <p>Estante Virtual É a melhor livraria online do mercado</p>
+
+        <div class="valor">R$ 77,00</div>
+        <a href="" class="btn">Adicionar ao Carrinho</a>
+    </div>
+</section>
+<!--FIM MODAL-->
+
+
+<!--INICIO RODAPE-->
+<section class="rodape">
+    <div class="box-container">
+
+        <!--INICIO ITEM-->
+        <div class="box">
+            <h3>Estante Virtual</h3>
+            <p>Melhores Livros</p>
+            <div class="redes-sociais">
+               <a href="" class="fab fa-facebook-f"></a>
+               <a href="" class="fab fa-instagram"></a>
+               <a href="" class="fab fa-twitter"></a>
+               <a href="" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+        <!--FIM ITEM-->
+        
+        <!--INICIO ITEM-->
+        <div class="box">
+            <h3>Faça Seu Pedido</h3>
+            <p>(19)9999-9999</p>
+            <p>(19)99999-9999</p>
+            <a href="estante-livros@gmail.com" title="estante-livros@gmail.com" class="link">estante-livros@gmail.com</a>
+        </div>
+        <!--FIM ITEM-->
+
+        <!--INICIO ITEM-->
+        <div class="box">
+            <h3>Localização</h3>
+            <p>
+                Rua 999, nº 99 </br>
+                Centro</br>
+                Araras-SP
+            </p>
+        </div>
+        <!--FIM ITEM-->
+    
+    </div>
+
+    <div class="direitos">
+        Criado por <span>Nayara Dellamura</span> | Todos os Direitos Reservados!
+    </div>
+</section>
+<!--FIM RODAPE-->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="assets/js/ms.js"></script>
+</body>
+</html>

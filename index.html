@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <title>Estante Virtual</title>
+</head>
+<body>
+
+<!--INICIO CABEÇALHO-->
+<header class="topo-site">
+    <!--INICIO LOGO-->
+    <a href="index.html" class="logo">
+        <i class="fas fa-book"></i>
+        Estante Virtual
+    </a>
+    <!--FIM LOGO-->
+
+
+    <!--INICIO MENU-->
+    <nav class="menu-site">
+        <a href="index.html">Home</a>
+        <a href="empresa.html">Empresa</a>
+        <a href="menu.html">Estante</a>
+        <a href="contatos.html">Fale Conosco</a>
+    </nav>
+    <!--FIM MENU-->
+
+
+    <!--INICIO ICONES-->
+    <div class="icones">
+        <div id="cart" class="fas fa-shopping-cart"></div>
+        <div id="login" class="fas fa-user"></div>
+        <div id="menu" class="fas fa-bars"></div>
+    </div>
+    <!--FIM ICONES-->
+    
+    <!--INICIO CARRINHO COMPRAS-->
+    <div class="carrinho">
+        <!--INICIO ITEM CARRINHO COMPRAS-->
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="assets/img/carrinho/carrinho-1.jpg" alt="">
+            <div class="content">
+                <h3>Harry Potter</h3>
+                <span class="quatidade">1</span>
+                <span class="multiplica">x</span>
+                <span class="valor">R$ 47,42</span>
+            </div>
+        </div>
+        <!--FIM ITEM CARRINHO COMPRAS-->
+
+        <!--INICIO ITEM CARRINHO COMPRAS-->
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="assets/img/carrinho/carrinho-2.jpg" alt="">
+            <div class="content">
+                <h3>Fogo & Sangue</h3>
+                <span class="quatidade">1</span>
+                <span class="multiplica">x</span>
+                <span class="valor">R$ 39,57</span>
+            </div>
+        </div>
+        <!--FIM ITEM CARRINHO COMPRAS-->
+
+        <!--INICIO ITEM CARRINHO COMPRAS-->
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="assets/img/carrinho/carrinho-3.jpg" alt="">
+            <div class="content">
+                <h3>Teto para Dois</h3>
+                <span class="quatidade">1</span>
+                <span class="multiplica">x</span>
+                <span class="valor">R$ 44,90</span>
+            </div>
+        </div>
+        <!--FIM ITEM CARRINHO COMPRAS-->
+
+        <h3 class="total">Total R$ 131,89</h3>
+        <a href="" class="btn">Ir para o carrinho</a>
+    </div>
+    <!--FIM CARRINHO COMPRAS-->
+    
+
+    <!--INICIO LOGIN-->
+    <form action="" method="post" class="login-form">
+        <h3>Acesse sua conta</h3>
+        <input type="email" name="email" class="box" placeholder="Seu E-mail"> 
+        <input type="password" name="senha" class="box" placeholder="Sua Senha"> 
+        <div class="lembrar-senha">
+            <input type="checkbox" name="" id="relembrar">
+            <label for="relembrar">Me lembrar da senha</label>
+        </div>
+        <button type="submit" name="sendLogin" class="btn">Acessar</button>
+    </form>
+    <!--FIM LOGIN-->
+    
+</header>
+<!--FIM CABEÇALHO-->
+
+<!--INICIO SLIDE DESTAQUE-->
+<section class="ev-destaque">
+    <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+
+            <!--INICIO ITEM SLIDE-->
+            <div class="swiper-slide slide" style="background: url(assets/img/slides/slide-1.png) no-repeat;">
+                <div class="content">
+                    <h3>A <span>melhor</span> livraria </br> do Brasil</h3>
+                    <a href="" class="btn">Comprar Agora</a>
+                </div>
+            </div>
+            <!--FIM ITEM SLIDE-->
+
+            <!--INICIO ITEM SLIDE-->
+            <div class="swiper-slide slide" style="background: url(assets/img/slides/slide-2.png) no-repeat;">
+                <div class="content">
+                    <h3>Oferecemos os Melhores <span>Livros</span></h3>
+                    <a href="" class="btn">Comprar Agora</a>
+                </div>
+            </div>
+            <!--FIM ITEM SLIDE-->
+
+            <!--INICIO ITEM SLIDE-->
+            <div class="swiper-slide slide" style="background: url(assets/img/slides/slide-3.png) no-repeat;">
+                <div class="content">
+                    <h3><span>Estante Virtual</span> </h3>
+                    <a href="" class="btn">Comprar Agora</a>
+                </div>
+            </div>
+            <!--FIM ITEM SLIDE-->
+
+        </div>
+
+        <!--INICIO BOTAO SLIDE-->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <!--FIM BOTAO SLIDE-->
+    </div>
+</section>
+<!--FIM SLIDE DESTAQUE-->
+
+
+<!--INICIO DESTAQUE-->
+<section class="destaque">
+    <h1 class="titulo">Livros Em <span>Destaques</span></h1>
+    <div class="box-container">
+
+        <!--INICIO ITEM DESTAQUE-->
+        <div class="box">
+            <div class="evimg">
+                <img src="assets/img/destaques/destaque-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>É Assim Que Acaba</h3>
+            </div>
+        </div>
+        <!--FIM ITEM DESTAQUE-->
+
+        <!--INICIO ITEM DESTAQUE-->
+        <div class="box">
+            <div class="evimg">
+                <img src="assets/img/destaques/destaque-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>É Assim Que Começa</h3>
+            </div>
+        </div>
+        <!--FIM ITEM DESTAQUE-->
+
+        <!--INICIO ITEM DESTAQUE-->
+        <div class="box">
+            <div class="evimg">
+                <img src="assets/img/destaques/destaque-3.png" alt="">
+            </div>
+            <div class="content">
+                <h3>A Biblioteca Da Meia-Noite</h3>
+            </div>
+        </div>
+        <!--FIM ITEM DESTAQUE-->
+
+        <!--INICIO ITEM DESTAQUE-->
+        <div class="box">
+            <div class="evimg">
+                <img src="assets/img/destaques/destaque-4.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Café Com Deus Pai</h3>
+            </div>
+        </div>
+        <!--FIM ITEM DESTAQUE-->
+
+    </div>
+</section>
+<!--FIM DESTAQUE-->
+
+
+<!--INICIO COMO FUNCIONA O SITE-->
+<div class="como-funciona"></br></br>
+    <h1 class="titulo">Como <span>Funciona</span></h1>
+    <div class="box-container">
+
+        <!--INICIO ITEM COMO FUNCIONA-->
+        <div class="box">
+            <img src="assets/img/como-funciona/cf-1.png" alt="">
+            <h3>Escolha Seu Livro</h3>
+        </div>
+        <!--FIM ITEM COMO FUNCIONA-->
+
+         <!--INICIO ITEM COMO FUNCIONA-->
+         <div class="box">
+            <img src="assets/img/como-funciona/cf-2.png" alt="">
+            <h3>Entrega Gratuita E Rápida</h3>
+        </div>
+        <!--FIM ITEM COMO FUNCIONA-->
+
+         <!--INICIO ITEM COMO FUNCIONA-->
+         <div class="box">
+            <img src="assets/img/como-funciona/cf-3.png" alt="">
+            <h3>Métodos De Pagamentos Fáceis</h3>
+        </div>
+        <!--FIM ITEM COMO FUNCIONA-->
+
+         <!--INICIO ITEM COMO FUNCIONA-->
+         <div class="box">
+            <img src="assets/img/como-funciona/cf-4.png" alt="">
+            <h3>E Finalmente, Aproveite Seu Livro</h3>
+        </div>
+        <!--FIM ITEM COMO FUNCIONA-->
+
+    </div>
+</div>
+<!--FIM COMO FUNCIONA O SITE-->
+
+<!--INICIO LOJA VIRTUAL-->
+<section class="loja">
+    <h1 class="titulo">Livros Mais <span>Comprados</span></h1>
+    <div class="box-container">
+
+     <!--INICIO ITEM LOJA-->
+     <div class="box">
+        <img src="assets/img/loja/livro-1.jpg" alt="">
+        <h3>Harry Potter</h3>
+        <p>Gênero Fantasia</p>
+        <div class="estrelas">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="loja_valor">
+            R$ 47,42 <span>R$ 69</span>
+        </div>
+        <a href="" class="btn">Adicionar ao Carrinho</a>
+    </div>
+    <!--FIM ITEM LOJA-->
+
+     <!--INICIO ITEM LOJA-->
+     <div class="box">
+        <img src="assets/img/loja/livro-2.jpg" alt="">
+        <h3>Fogo & Sangue</h3>
+        <p>Gênero Fantasia</p>
+        <div class="estrelas">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="loja_valor">
+            R$ 39,57 <span>R$ 99</span>
+        </div>
+        <a href="" class="btn">Adicionar ao Carrinho</a>
+    </div>
+    <!--FIM ITEM LOJA-->
+
+     <!--INICIO ITEM LOJA-->
+     <div class="box">
+        <img src="assets/img/loja/livro-3.jpg" alt="">
+        <h3>Teto Para Dois</h3>
+        <p>Gênero Romance</p>
+        <div class="estrelas">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="loja_valor">
+            R$ 44,90 <span>R$ 50</span>
+        </div>
+        <a href="" class="btn">Adicionar ao Carrinho</a>
+    </div>
+    <!--FIM ITEM LOJA-->
+
+     <!--INICIO ITEM LOJA-->
+     <div class="box">
+        <img src="assets/img/loja/livro-4.jpg" alt="">
+        <h3>Alice</h3>
+        <p>Gênero Fantasia</p>
+        <div class="estrelas">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="loja_valor">
+            R$ 47,42 <span>R$ 99</span>
+        </div>
+        <a href="" class="btn">Adicionar ao Carrinho</a>
+    </div>
+    <!--FIM ITEM LOJA-->
+
+     <!--INICIO ITEM LOJA-->
+     <div class="box">
+        <img src="assets/img/loja/livro-5.jpg" alt="">
+        <h3>O Último Desejo</h3>
+        <p>Gênero Fantasia</p>
+        <div class="estrelas">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="loja_valor">
+            R$ 57,99 <span>R$ 99</span>
+        </div>
+        <a href="" class="btn">Adicionar ao Carrinho</a>
+    </div>
+    <!--FIM ITEM LOJA-->
+
+     <!--INICIO ITEM LOJA-->
+     <div class="box">
+        <img src="assets/img/loja/livro-6.jpg" alt="">
+        <h3>A Casa Sonolenta</h3>
+        <p>Gênero Fantasia</p>
+        <div class="estrelas">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="loja_valor">
+            R$ 55,00 <span>R$ 89</span>
+        </div>
+        <a href="" class="btn">Adicionar ao Carrinho</a>
+    </div>
+    <!--FIM ITEM LOJA-->
+    
+    </div>
+</section>
+<!--FIM LOJA VIRTUAL-->
+</br>
+</br>
+</br>
+<!--INICIO SOBRE EMPRESA-->
+<section class=" empresa">
+    <div class="row">
+        <div class="empresa-img">
+            <img src="assets/img/livraria.png" alt="">
+        </div>
+        <div class="content">
+            <h3>A Estante Virtual: <span>O Lugar Perfeito </span> Para Sua Leitura e Entretenimento</h3>
+        <p>
+            Se Você É Um Amante De Livros E De Entretenimento, A Livraria Estante Virtual É O Lugar Ideal Para Satisfazer Suas Paixões Literárias Enquanto Desfruta De Uma Experiência Única. Localizada No Coração Da Cidade, A Msflix Se Destaca Como Um Ponto De Encontro Popular Para Aqueles Que Buscam Uma Combinação Perfeita De Leitura E Diversão.
+        </p>
+        <p>
+            O Catálogo Da Livraria Estante Virtual Oferece Uma Ampla Variedade De Títulos, Desde Os Clássicos Da Literatura Até Lançamentos Inovadores Que Deixarão Sua Imaginação Encantada. Se Você É Fã De Ficção, Não-Ficção, Fantasia, Mistério Ou Uma Combinação De Gêneros Literários, A Estante Virtual Tem O Livro Perfeito Para Você. E O Melhor De Tudo, Você Pode Personalizar Suas Compras De Acordo Com Suas Preferências.
+        </p>
+        <a href="" class="btn">Saiba Mais</a>
+
+        </div>
+    </div>
+</section>
+<!--FIM SOBRE EMPRESA-->
+
+
+<!--INICIO RODAPE-->
+<section class="rodape">
+    <div class="box-container">
+
+        <!--INICIO ITEM-->
+        <div class="box">
+            <h3>Estante Virtual</h3>
+            <p>Melhores Livros</p>
+            <div class="redes-sociais">
+               <a href="" class="fab fa-facebook-f"></a>
+               <a href="" class="fab fa-instagram"></a>
+               <a href="" class="fab fa-twitter"></a>
+               <a href="" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+        <!--FIM ITEM-->
+        
+        <!--INICIO ITEM-->
+        <div class="box">
+            <h3>Faça Seu Pedido</h3>
+            <p>(19)9999-9999</p>
+            <p>(19)99999-9999</p>
+            <a href="estante-livros@gmail.com" title="estante-livros@gmail.com" class="link">estante-livros@gmail.com</a>
+        </div>
+        <!--FIM ITEM-->
+
+        <!--INICIO ITEM-->
+        <div class="box">
+            <h3>Localização</h3>
+            <p>
+                Rua 999, nº 99 </br>
+                Centro</br>
+                Araras-SP
+            </p>
+        </div>
+        <!--FIM ITEM-->
+    
+    </div>
+
+    <div class="direitos">
+        Criado por <span>Nayara Dellamura</span> | Todos os Direitos Reservados!
+    </div>
+</section>
+<!--FIM RODAPE-->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="assets/js/ms.js"></script>
+</body>
+</html>

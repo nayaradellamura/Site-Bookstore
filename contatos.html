@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <title>Estante Virtual</title>
+</head>
+<body>
+
+<!--INICIO CABEÇALHO-->
+<header class="topo-site">
+    <!--INICIO LOGO-->
+    <a href="index.html" class="logo">
+        <i class="fas fa-book"></i>
+        Estante Virtual
+    </a>
+    <!--FIM LOGO-->
+
+
+    <!--INICIO MENU-->
+    <nav class="menu-site">
+        <a href="index.html">Home</a>
+        <a href="empresa.html">Empresa</a>
+        <a href="menu.html">Estante</a>
+        <a href="contatos.html">Fale Conosco</a>
+    </nav>
+    <!--FIM MENU-->
+
+
+    <!--INICIO ICONES-->
+    <div class="icones">
+        <div id="cart" class="fas fa-shopping-cart"></div>
+        <div id="login" class="fas fa-user"></div>
+        <div id="menu" class="fas fa-bars"></div>
+    </div>
+    <!--FIM ICONES-->
+    
+    <!--INICIO CARRINHO COMPRAS-->
+    <div class="carrinho">
+        <!--INICIO ITEM CARRINHO COMPRAS-->
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="assets/img/carrinho/carrinho-1.jpg" alt="">
+            <div class="content">
+                <h3>Harry Potter</h3>
+                <span class="quatidade">1</span>
+                <span class="multiplica">x</span>
+                <span class="valor">R$ 47,42</span>
+            </div>
+        </div>
+        <!--FIM ITEM CARRINHO COMPRAS-->
+
+        <!--INICIO ITEM CARRINHO COMPRAS-->
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="assets/img/carrinho/carrinho-2.jpg" alt="">
+            <div class="content">
+                <h3>Fogo & Sangue</h3>
+                <span class="quatidade">1</span>
+                <span class="multiplica">x</span>
+                <span class="valor">R$ 39,57</span>
+            </div>
+        </div>
+        <!--FIM ITEM CARRINHO COMPRAS-->
+
+        <!--INICIO ITEM CARRINHO COMPRAS-->
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="assets/img/carrinho/carrinho-3.jpg" alt="">
+            <div class="content">
+                <h3>Teto para Dois</h3>
+                <span class="quatidade">1</span>
+                <span class="multiplica">x</span>
+                <span class="valor">R$ 44,90</span>
+            </div>
+        </div>
+        <!--FIM ITEM CARRINHO COMPRAS-->
+
+        <h3 class="total">Total R$ 131,89</h3>
+        <a href="" class="btn">Ir para o carrinho</a>
+    </div>
+    <!--FIM CARRINHO COMPRAS-->
+    
+
+    <!--INICIO LOGIN-->
+    <form action="" method="post" class="login-form">
+        <h3>Acesse sua conta</h3>
+        <input type="email" name="email" class="box" placeholder="Seu E-mail"> 
+        <input type="password" name="senha" class="box" placeholder="Sua Senha"> 
+        <div class="lembrar-senha">
+            <input type="checkbox" name="" id="relembrar">
+            <label for="relembrar">Me lembrar da senha</label>
+        </div>
+        <button type="submit" name="sendLogin" class="btn">Acessar</button>
+    </form>
+    <!--FIM LOGIN-->
+    
+</header>
+<!--FIM CABEÇALHO-->
+
+
+<!--INICIO TOPO PÁGINA-->
+<div class="topo-pagina">
+    <h1>Fale Conosco</h1>
+    <p><a href="index.html" title="Sobre Nós">Início>></a> Contatos</p>
+</div>
+<!--FIM TOPO PÁGINA-->
+
+
+<!--INICIO CONTATOS-->
+<section class="contatos">
+
+<!--INICIO BLOCOS-->
+<div class="icone-box">
+
+    <!--INICIO ITEM-->
+    <div class="icons">
+        <i class="fas fa-phone"></i>
+        <h3>Atendimentos Fones</h3>
+        <p>(19)9999-9999</p>
+        <p>(19)99999-9999</p>
+    </div>
+    <!--FIM ITEM-->
+    <!--INICIO ITEM-->
+    <div class="icons">
+        <i class="fas fa-envelope"></i>
+        <h3>Nossos E-mails</h3>
+        <p>estante-livros@gmail.com</p>
+        <p>vendas_estantevirtual@gmail.com</p>
+    </div>
+    <!--FIM ITEM-->
+    <!--INICIO ITEM-->
+    <div class="icons">
+        <i class="fas fa-envelope"></i>
+        <h3>Endereço</h3>
+        <p>Rua 999, Nº99</p>
+        <p>Araras-SP</p>
+    </div>
+    <!--FIM ITEM-->
+</div>
+<!--FIM BLOCOS-->
+
+<!--INICIO FORMULARIO-->
+<div class="row">
+    <form action="" method="post" enctype="multipart/form-data">
+        <h3>Faça seu pedido por e-mail</h3>
+        <div class="inputBox">
+            <input type="text" name="nome" placeholder="Seu nome completo" class="box">
+            <input type="email" name="email" placeholder="Seu E-mail" class="box">
+        </div>
+        <div class="inputBox">
+            <input type="number" name="fone" placeholder="Seu telefone" class="box">
+            <input type="text" name="assunto" placeholder="Seu Assunto" class="box">
+        </div>
+        <div class="inputBox">
+            <textarea name="fonemsg" placeholder="Sua Mensagem" cols="30" rows="10" class="box"></textarea>
+        </div>
+        <button type="submit" class="btn">Enviar Mensagem</button>
+    </form>
+</div>
+<!--FIM FORMULARIO-->
+
+<!--INICIO MAPA-->
+</br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.885238328839!2d-47.383958289377354!3d-22.357961718402112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8773a1eb26a6f%3A0xd31e1ff11c5a12b1!2sR.%20Cel.%20Justiniano%2C%20808%20-%20Centro%2C%20Araras%20-%20SP%2C%2013600-700!5e0!3m2!1spt-BR!2sbr!4v1720909076256!5m2!1spt-BR!2sbr" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<!--FIM MAPA-->
+
+</section>
+<!--FIM CONTATOS-->
+
+
+<!--INICIO RODAPE-->
+<section class="rodape">
+    <div class="box-container">
+
+        <!--INICIO ITEM-->
+        <div class="box">
+            <h3>Estante Virtual</h3>
+            <p>Melhores Livros</p>
+            <div class="redes-sociais">
+               <a href="" class="fab fa-facebook-f"></a>
+               <a href="" class="fab fa-instagram"></a>
+               <a href="" class="fab fa-twitter"></a>
+               <a href="" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+        <!--FIM ITEM-->
+        
+        <!--INICIO ITEM-->
+        <div class="box">
+            <h3>Faça Seu Pedido</h3>
+            <p>(19)9999-9999</p>
+            <p>(19)99999-9999</p>
+            <a href="estante-livros@gmail.com" title="estante-livros@gmail.com" class="link">estante-livros@gmail.com</a>
+        </div>
+        <!--FIM ITEM-->
+
+        <!--INICIO ITEM-->
+        <div class="box">
+            <h3>Localização</h3>
+            <p>
+                Rua 999, nº 99 </br>
+                Centro</br>
+                Araras-SP
+            </p>
+        </div>
+        <!--FIM ITEM-->
+    
+    </div>
+
+    <div class="direitos">
+        Criado por <span>Nayara Dellamura</span> | Todos os Direitos Reservados!
+    </div>
+</section>
+<!--FIM RODAPE-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+<script src="assets/js/ms.js"></script>
+<script>
+        lightGallery(document.querySelector('.galeria-fotos .galeria-container'))
+</script>
+</body>
+</html>
